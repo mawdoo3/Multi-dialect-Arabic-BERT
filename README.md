@@ -15,7 +15,7 @@ Instead of training the Multi-dialect Arabic BERT model from scratch, we initial
 | num_hidden_layers  | 12  |
 | vocab_size  | 32000  |
 | hidden_size  | 768  |
-<strong style="background-color:green">Total number of parameters = 110M</strong>
+<strong> Total number of parameters </strong> | <strong> 110M</strong>
 
 ### Usage
 The model weights can be loaded using `transformers` library by HuggingFace.
