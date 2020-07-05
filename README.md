@@ -4,19 +4,18 @@ This is a repository of Multi-dialect Arabic BERT model.
 ### About our Multi-dialect-Arabic-BERT model
 Instead of training the Multi-dialect Arabic BERT model from scratch, we initialized the weights of the model using [Arabic-BERT](https://github.com/alisafaya/Arabic-BERT) and trained it on 10M arabic tweets from the unlabled data of [The Nuanced Arabic Dialect Identification (NADI) shared task](https://sites.google.com/view/nadi-shared-task).
 
-### Model Parameters
+### To cite this work
+We haven't published any paper on this work. Please cite this repository:
+```
+@article{Laboro BERT Japanese,
+  title = {Laboro BERT Japanese: Japanese BERT Pre-Trained With Web-Corpus},
+  author = {"Zhao, Xinyi and Hamamoto, Masafumi and Fujihara, Hiromasa"},
+  year = {2020},
+  howpublished = {\url{https://github.com/laboroai/Laboro-BERT-Japanese}}
+}
 
-| Parameter | Value |
-| ------------- | ------------- |
-| architecture  | BertForMaskedLM  |
-| hidden_size  | 768  |
-| max_position_embeddings  | 512  |
-| num_attention_heads  | 12  |
-| num_hidden_layers  | 12  |
-| vocab_size  | 32000  |
-| hidden_size  | 768  |
-<strong> Total number of parameters </strong> | <strong> 110M</strong>
-
+```
+We will update the BibTeX once the paper published.
 ### Usage
 The model weights can be loaded using `transformers` library by HuggingFace.
 
@@ -47,3 +46,25 @@ fill_mask(" سافر الرحالة من مطار [MASK] ")
  {'sequence': '[CLS] سافر الرحالة من مطار القاهرة [SEP]', 'score': 0.03234650194644928, 'token': 4003},
  {'sequence': '[CLS] سافر الرحالة من مطار الرياض [SEP]', 'score': 0.02606341242790222, 'token': 2200}]
 ```
+
+### Model Parameters
+
+| Parameter | Value |
+| ------------- | ------------- |
+| architecture  | BertForMaskedLM  |
+| hidden_size  | 768  |
+| max_position_embeddings  | 512  |
+| num_attention_heads  | 12  |
+| num_hidden_layers  | 12  |
+| vocab_size  | 32000  |
+| hidden_size  | 768  |
+<strong> Total number of parameters </strong> | <strong> 110M</strong>
+
+### Contributors
+[Fname Lname](), 
+[Fname Lname](), 
+[Fname Lname](), 
+[Fname Lname](), 
+[Fname Lname](), 
+[Fname Lname](), 
+[Fname Lname](), 
