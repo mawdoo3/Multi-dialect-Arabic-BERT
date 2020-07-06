@@ -7,11 +7,12 @@ Instead of training the Multi-dialect Arabic BERT model from scratch, we initial
 ### To cite this work
 We haven't published any paper on this work. Please cite this repository:
 ```
-@article{Laboro BERT Japanese,
-  title = {Laboro BERT Japanese: Japanese BERT Pre-Trained With Web-Corpus},
-  author = {"Zhao, Xinyi and Hamamoto, Masafumi and Fujihara, Hiromasa"},
-  year = {2020},
-  howpublished = {\url{https://github.com/laboroai/Laboro-BERT-Japanese}}
+@inproceedings{talafha2019mawdoo3,
+  title={Mawdoo3 AI at MADAR Shared Task: Arabic Tweet Dialect Identification},
+  author={Talafha, Bashar and Farhan, Wael and Altakrouri, Ahmed and Al-Natsheh, Hussein},
+  booktitle={Proceedings of the Fourth Arabic Natural Language Processing Workshop},
+  pages={239--243},
+  year={2019}
 }
 
 ```
