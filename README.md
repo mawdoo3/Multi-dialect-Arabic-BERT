@@ -60,11 +60,3 @@ fill_mask(" سافر الرحالة من مطار [MASK] ")
 | hidden_size  | 768  |
 <strong> Total number of parameters </strong> | <strong> 110M</strong>
 
-### Contributors
-[Fname Lname](), 
-[Fname Lname](), 
-[Fname Lname](), 
-[Fname Lname](), 
-[Fname Lname](), 
-[Fname Lname](), 
-[Fname Lname](), 
