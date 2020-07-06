@@ -3,7 +3,7 @@ This is a repository of Multi-dialect Arabic BERT model.
 
 <p align="center">
     <br>
-    <img src="multidialct_arabic_bert.png" alt="Multi-dialect Arabic BERT" width="500"/>
+    <img src="multidialct_arabic_bert.png" alt="Background reference: http://www.qfi.org/wp-content/uploads/2018/02/Qfi_Infographic_Mother-Language_Final.pdf" width="500"/>
     <br>
 <p>
 
