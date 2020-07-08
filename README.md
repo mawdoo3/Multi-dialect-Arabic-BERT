@@ -1,5 +1,5 @@
 # Multi-dialect-Arabic-BERT
-This is a repository of Multi-dialect Arabic BERT model.
+This is a repository of the Multi-dialect Arabic BERT model.
 
 By [Mawdoo3-AI](https://ai.mawdoo3.com/). 
 
